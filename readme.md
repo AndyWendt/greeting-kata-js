@@ -6,6 +6,8 @@ This Kata was suggested by [Nick Gauthier](http://ngauthier.com) and inspired a 
 
 This Kata is designed to be used with [[Detroit-school TDD]].
 
+red -> green -> refactor
+
 ## Requirement 1
 
 Write a method `greet(name)` that interpolates `name` in a simple greeting. For example, when `name` is `"Bob"`, the method should return a string `"Hello, Bob."`.
@@ -36,4 +38,4 @@ If any entries in `name` are a string containing a comma, split it as its own in
 
 ## Requirement 8
 
-Allow the input to escape intentional commas introduced by Requirement 7. These can be escaped in the same manner that CSV is, with double quotes surrounding the entry. For example, when `name` is `["Bob", "\"Charlie, Dianne\""]`, then the method should return the string `"Hello, Bob and Charlie, Dianne."`.
+Allow the input to escape intentional commas introduced by Requirement 7. These can be escaped in the same manner that CSV is, with double quotes surrounding the entry. For example, when `name` is `["Bob", "\"Charlie, Dianne\""]`, then the method should return the string `"Hello, Bob and Charlie, Dianne."`.]()
